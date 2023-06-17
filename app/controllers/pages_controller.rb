@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def index
-    @Beers = Beers.all
+    @Beer = Beer.all
   end
 end
